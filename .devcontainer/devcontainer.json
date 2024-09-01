@@ -18,7 +18,7 @@
         8000
     ],
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "pipx install uv && uv pip sync -r requirements-dev.txt",
+    "postCreateCommand": "pipx install uv && uv pip sync requirements-dev.txt",
     // pre-commit has issues without safe.directory
     "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
     // Configure tool-specific properties.
