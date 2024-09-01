@@ -17,7 +17,7 @@ bidict==0.23.1
     # via
     #   -r requirements-core.txt
     #   python-socketio
-certifi==2024.7.4
+certifi==2024.8.30
     # via
     #   -r requirements-core.txt
     #   httpcore
@@ -40,7 +40,7 @@ cryptography==43.0.0
     # via
     #   -r requirements-core.txt
     #   joserfc
-fastapi-slim==0.112.1
+fastapi-slim==0.112.2
     # via -r requirements-core.txt
 gunicorn==23.0.0 ; sys_platform != 'win32'
     # via -r requirements-core.txt
@@ -58,9 +58,9 @@ httpcore==1.0.5
     #   httpx
 httptools==0.6.1
     # via -r requirements-core.txt
-httpx==0.27.0
+httpx==0.27.2
     # via -r requirements-core.txt
-idna==3.7
+idna==3.8
     # via
     #   -r requirements-core.txt
     #   anyio
@@ -143,7 +143,7 @@ sniffio==1.3.1
     #   -r requirements-core.txt
     #   anyio
     #   httpx
-starlette==0.38.2
+starlette==0.38.4
     # via
     #   -r requirements-core.txt
     #   fastapi-slim

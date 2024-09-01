@@ -20,7 +20,7 @@ bidict==0.23.1
     # via
     #   -r requirements.txt
     #   python-socketio
-certifi==2024.7.4
+certifi==2024.8.30
     # via
     #   -r requirements.txt
     #   httpcore
@@ -48,7 +48,7 @@ cryptography==43.0.0
     #   joserfc
 distlib==0.3.8
     # via virtualenv
-fastapi-slim==0.112.1
+fastapi-slim==0.112.2
     # via -r requirements.txt
 filelock==3.15.4
     # via virtualenv
@@ -68,11 +68,11 @@ httpcore==1.0.5
     #   httpx
 httptools==0.6.1
     # via -r requirements.txt
-httpx==0.27.0
+httpx==0.27.2
     # via -r requirements.txt
 identify==2.6.0
     # via pre-commit
-idna==3.7
+idna==3.8
     # via
     #   -r requirements.txt
     #   anyio
@@ -176,7 +176,7 @@ sniffio==1.3.1
     #   httpx
 soupsieve==2.6
     # via beautifulsoup4
-starlette==0.38.2
+starlette==0.38.4
     # via
     #   -r requirements.txt
     #   fastapi-slim
@@ -190,7 +190,7 @@ tzdata==2024.1
     # via
     #   -r requirements.txt
     #   pandas
-uv==0.3.2
+uv==0.4.2
     # via -r requirements-dev.in
 uvicorn==0.30.6
     # via -r requirements.txt
@@ -198,7 +198,7 @@ uvloop==0.20.0 ; sys_platform != 'win32'
     # via -r requirements.txt
 virtualenv==20.26.3
     # via pre-commit
-watchfiles==0.23.0
+watchfiles==0.24.0
     # via -r requirements-dev.in
 wsproto==1.2.0
     # via
