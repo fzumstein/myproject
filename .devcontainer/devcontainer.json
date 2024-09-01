@@ -18,7 +18,7 @@
         8000
     ],
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "pip install uv && uv pip install -r requirements-dev.txt --system",
+    "postCreateCommand": "pip install uv && uv pip install --python $(which python) --target $(python -m site --user-site) -r requirements-dev.txt",
     // pre-commit has issues without safe.directory
     "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
     // Configure tool-specific properties.
